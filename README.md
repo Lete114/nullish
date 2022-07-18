@@ -13,9 +13,9 @@ npm install nullish --save
 See the test folder [test/index.js](test/index.js)
 
 ```js
-import nullish from 'nullish';
+import nullish from 'nullish'
 
 // null ?? 'value'
-const obj = {};
-nullish(obj.name,'value')
+const obj = {}
+nullish(obj.name, 'value')
 ```
