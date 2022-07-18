@@ -1,0 +1,30 @@
+{
+  "name": "nullish",
+  "version": "1.0.0",
+  "description": "Resolve nullish coalescing operator (??) compatibility issues",
+  "main": "src/nullish.js",
+  "module": "src/nullish.mjs",
+  "scripts": {
+    "test": "node test/index.mjs && node test/index.js",
+    "lint": "npx eslint src && npx prettier --check src",
+    "lint:fix": "npx eslint --fix . && npx prettier --check --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lete114/nullish.git"
+  },
+  "keywords": [
+    "nullish",
+    "??"
+  ],
+  "author": "Lete乐特",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lete114/nullish/issues"
+  },
+  "homepage": "https://github.com/Lete114/nullish#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2"
+  }
+}
