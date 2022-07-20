@@ -1,13 +1,14 @@
 {
   "name": "nullish",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resolve nullish coalescing operator (??) compatibility issues",
   "main": "src/nullish.js",
   "module": "src/nullish.mjs",
+  "jsdelivr": "dist/nullish.js",
   "scripts": {
     "test": "node test/index.mjs && node test/index.js",
     "lint": "npx eslint src && npx prettier --check src",
-    "lint:fix": "npx eslint --fix . && npx prettier --check --write ."
+    "lint:fix": "npx eslint --fix src && npx prettier --check --write src"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,1 @@
+var nullish=function(l,r){return null!=l?l:r}
